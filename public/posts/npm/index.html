@@ -159,7 +159,7 @@
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              3-minute read
+              5-minute read
             </span>
           </div>
           <div class="authors">
@@ -208,6 +208,16 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
+<h2 id="-source">
+  📖 Source
+  <a class="heading-link" href="#-source">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Cet article est basé sur l&rsquo;analyse publiée par <strong>CSO Online</strong> concernant l&rsquo;évolution des attaques sur la supply chain npm.</p>
+<p>🔗 <a href="https://www.csoonline.com/article/4117139/from-typos-to-takeovers-inside-the-industrialization-of-npm-supply-chain-attacks.html"  class="external-link" target="_blank" rel="noopener">Lien vers l&rsquo;article original</a></p>
+<hr>
 <h2 id="-introduction">
   📌 Introduction
   <a class="heading-link" href="#-introduction">
@@ -215,7 +225,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>L&rsquo;écosystème <strong>npm</strong>, pilier central du développement JavaScript et web moderne, est devenu une cible privilégiée pour les cybercriminels. Un article récent de CSO Online révèle une évolution alarmante : les attaques sont passées de simples tentatives de typosquatting opportunistes à des <strong>intrusions coordonnées et sophistiquées</strong> ciblant directement les pipelines CI/CD et les mainteneurs de packages.</p>
+<p>L&rsquo;écosystème <strong>npm</strong>, pilier central du développement JavaScript et web moderne, est devenu une cible privilégiée pour les cybercriminels. L&rsquo;article de CSO Online révèle une évolution alarmante : les attaques sont passées de simples tentatives de typosquatting opportunistes à des <strong>intrusions coordonnées et sophistiquées</strong> ciblant directement les pipelines CI/CD et les mainteneurs de packages.</p>
 <hr>
 <h2 id="-le-constat--npm-une-cible-de-choix">
   🎯 Le constat : npm, une cible de choix
@@ -300,9 +310,93 @@
 <li><strong>Payloads à expiration</strong> minimisant la visibilité forensique</li>
 </ul>
 <hr>
-<h2 id="-ce-que-cela-mapprend-en-tant-que-développeur">
-  💡 Ce que cela m&rsquo;apprend en tant que développeur
-  <a class="heading-link" href="#-ce-que-cela-mapprend-en-tant-que-d%c3%a9veloppeur">
+<h2 id="-pourquoi-cet-article-mintéresse-en-tant-que-dev-">
+  💡 Pourquoi cet article m&rsquo;intéresse en tant que Dev ?
+  <a class="heading-link" href="#-pourquoi-cet-article-mint%c3%a9resse-en-tant-que-dev-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="lien-avec-mon-domaine">
+  Lien avec mon domaine
+  <a class="heading-link" href="#lien-avec-mon-domaine">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>En tant que développeur spécialisé dans le <strong>développement web</strong> (comme indiqué dans mon Ikigai), npm fait partie intégrante de mon quotidien. Chaque projet JavaScript ou TypeScript que je crée repose sur des dizaines, voire des centaines de dépendances npm.</p>
+<p>Cet article me concerne directement car :</p>
+<ul>
+<li>Je suis <strong>responsable de la sécurité</strong> du code que je livre</li>
+<li>Mes projets utilisent <strong>des pipelines CI/CD</strong> (GitHub Actions, etc.)</li>
+<li>La <strong>valorisation du travail</strong> passe aussi par sa qualité et sa sécurité — un projet compromis, c&rsquo;est une réputation en jeu</li>
+</ul>
+<p>La sécurité n&rsquo;est pas un &ldquo;nice to have&rdquo; — c&rsquo;est une compétence essentielle pour tout développeur professionnel.</p>
+<hr>
+<h2 id="-à-quel-moment-cela-me-sera-utile-">
+  🕐 À quel moment cela me sera utile ?
+  <a class="heading-link" href="#-%c3%a0-quel-moment-cela-me-sera-utile-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="situations-concrètes-dapplication">
+  Situations concrètes d&rsquo;application
+  <a class="heading-link" href="#situations-concr%c3%a8tes-dapplication">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Situation</th>
+          <th>Risque identifié</th>
+          <th>Action à prendre</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Je fais <code>npm install</code> sur un <strong>nouveau projet</strong></td>
+          <td>Package malveillant potentiel</td>
+          <td>Vérifier le mainteneur, l&rsquo;historique, utiliser <code>--ignore-scripts</code></td>
+      </tr>
+      <tr>
+          <td>J&rsquo;ajoute une <strong>nouvelle dépendance</strong> à un projet existant</td>
+          <td>Supply chain compromise</td>
+          <td>Auditer avec <code>npm audit</code>, épingler la version exacte</td>
+      </tr>
+      <tr>
+          <td>Je configure un <strong>pipeline CI/CD</strong></td>
+          <td>Runner = cible prioritaire</td>
+          <td>Limiter les permissions, rotation des tokens</td>
+      </tr>
+      <tr>
+          <td>Je publie un <strong>package npm</strong> moi-même</td>
+          <td>Mon compte peut être ciblé</td>
+          <td>Activer 2FA, utiliser des tokens scoped</td>
+      </tr>
+      <tr>
+          <td>Je fais une <strong>code review</strong></td>
+          <td>Dépendances cachées possibles</td>
+          <td>Vérifier les ajouts dans <code>package.json</code> et <code>package-lock.json</code></td>
+      </tr>
+      <tr>
+          <td>Je maintiens un <strong>projet legacy</strong></td>
+          <td>Dépendances obsolètes = vulnérabilités</td>
+          <td>Audit régulier, mise à jour des packages critiques</td>
+      </tr>
+      <tr>
+          <td>Je travaille sur un <strong>projet client sensible</strong></td>
+          <td>Responsabilité accrue</td>
+          <td>Appliquer toutes les bonnes pratiques de sécurité</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-ce-que-ça-mapprend-concrètement">
+  🛡️ Ce que ça m&rsquo;apprend concrètement
+  <a class="heading-link" href="#-ce-que-%c3%a7a-mapprend-concr%c3%a8tement">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -314,23 +408,23 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>Chaque <code>npm install</code> représente un risque potentiel. Il faut vérifier :</p>
+<p>Chaque <code>npm install</code> représente un risque potentiel. <strong>Je dois systématiquement vérifier</strong> :</p>
 <ul>
 <li>La légitimité du package</li>
 <li>L&rsquo;identité du mainteneur</li>
 <li>L&rsquo;historique des commits et versions</li>
 </ul>
-<h3 id="2-les-pipelines-cicd-sont-des-cibles-prioritaires">
-  2️⃣ Les pipelines CI/CD sont des cibles prioritaires
-  <a class="heading-link" href="#2-les-pipelines-cicd-sont-des-cibles-prioritaires">
+<h3 id="2-mes-pipelines-cicd-sont-des-cibles-prioritaires">
+  2️⃣ Mes pipelines CI/CD sont des cibles prioritaires
+  <a class="heading-link" href="#2-mes-pipelines-cicd-sont-des-cibles-prioritaires">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>Les runners CI ont souvent des <strong>permissions plus élevées</strong> que les postes de développement local. Ils doivent être traités comme des <strong>actifs de production</strong>.</p>
-<h3 id="3-bonnes-pratiques-à-adopter-immédiatement">
-  3️⃣ Bonnes pratiques à adopter immédiatement
-  <a class="heading-link" href="#3-bonnes-pratiques-%c3%a0-adopter-imm%c3%a9diatement">
+<p>Les runners CI ont souvent des <strong>permissions plus élevées</strong> que mon poste local. Je dois les traiter comme des <strong>actifs de production</strong>.</p>
+<h3 id="3-bonnes-pratiques-que-je-dois-adopter-immédiatement">
+  3️⃣ Bonnes pratiques que je dois adopter immédiatement
+  <a class="heading-link" href="#3-bonnes-pratiques-que-je-dois-adopter-imm%c3%a9diatement">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -343,23 +437,24 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Auditer les dépendances</span>
 </span></span><span class="line"><span class="cl">npm audit
-</span></span></code></pre></div><p><strong>Checklist sécurité :</strong></p>
+</span></span></code></pre></div><p><strong>Ma checklist sécurité npm :</strong></p>
 <ul>
 <li><input disabled="" type="checkbox"> Épingler les dépendances à des versions exactes</li>
 <li><input disabled="" type="checkbox"> Désactiver les scripts de lifecycle par défaut</li>
 <li><input disabled="" type="checkbox"> Auditer régulièrement avec <code>npm audit</code></li>
 <li><input disabled="" type="checkbox"> Rotation fréquente des tokens de publication</li>
 <li><input disabled="" type="checkbox"> Limiter la portée des tokens (<code>--scope</code>)</li>
+<li><input disabled="" type="checkbox"> Activer 2FA sur mon compte npm</li>
 <li><input disabled="" type="checkbox"> Utiliser des outils d&rsquo;analyse comportementale</li>
 </ul>
-<h3 id="4-limportance-de-la-veille-sécurité">
-  4️⃣ L&rsquo;importance de la veille sécurité
-  <a class="heading-link" href="#4-limportance-de-la-veille-s%c3%a9curit%c3%a9">
+<h3 id="4-limportance-de-la-veille-sécurité-continue">
+  4️⃣ L&rsquo;importance de la veille sécurité continue
+  <a class="heading-link" href="#4-limportance-de-la-veille-s%c3%a9curit%c3%a9-continue">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>Les techniques d&rsquo;attaque évoluent constamment. Ce qui était détectable manuellement hier est aujourd&rsquo;hui masqué derrière des couches d&rsquo;obfuscation et d&rsquo;exécution conditionnelle.</p>
+<p>Les techniques d&rsquo;attaque évoluent constamment. Ce qui était détectable manuellement hier est aujourd&rsquo;hui masqué derrière des couches d&rsquo;obfuscation. <strong>Rester informé fait partie de mon métier.</strong></p>
 <hr>
 <h2 id="-chiffres-clés">
   📊 Chiffres clés
@@ -391,30 +486,44 @@
   </tbody>
 </table>
 <hr>
-<h2 id="-conclusion">
-  ✅ Conclusion
-  <a class="heading-link" href="#-conclusion">
+<h2 id="-ce-que-je-retiens">
+  🎯 Ce que je retiens
+  <a class="heading-link" href="#-ce-que-je-retiens">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>Cet article illustre comment la <strong>supply chain logicielle</strong> est devenue un vecteur d&rsquo;attaque majeur. Pour un développeur, comprendre ces menaces n&rsquo;est plus optionnel mais <strong>essentiel</strong> pour protéger ses projets et ses utilisateurs.</p>
-<p><strong>Les 3 points à retenir :</strong></p>
-<ol>
-<li>🔍 <strong>Auditer</strong> systématiquement les dépendances</li>
-<li>🔒 <strong>Sécuriser</strong> les environnements CI/CD comme la production</li>
-<li>📚 <strong>Se former</strong> continuellement aux nouvelles menaces</li>
-</ol>
+<p>Cet article illustre comment la <strong>supply chain logicielle</strong> est devenue un vecteur d&rsquo;attaque majeur. Comprendre ces menaces n&rsquo;est plus optionnel mais <strong>essentiel</strong> pour protéger mes projets et mes utilisateurs.</p>
+<h3 id="points-clés-pour-ma-pratique-">
+  Points clés pour ma pratique :
+  <a class="heading-link" href="#points-cl%c3%a9s-pour-ma-pratique-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>✅ <strong>Auditer systématiquement</strong> les dépendances avant et après installation</li>
+<li>✅ <strong>Sécuriser mes CI/CD</strong> comme des environnements de production</li>
+<li>✅ <strong>Épingler les versions</strong> pour éviter les mises à jour malveillantes automatiques</li>
+<li>✅ <strong>Activer 2FA</strong> sur npm et tous mes comptes liés au code</li>
+<li>✅ <strong>Rester vigilant</strong> — la sécurité est un processus continu, pas un état</li>
+</ul>
+<blockquote>
+<p><strong>La sécurité de mon code commence par la sécurité de mes dépendances. Chaque <code>npm install</code> est un acte de confiance qui doit être vérifié.</strong></p>
+</blockquote>
 <hr>
-<h2 id="-source">
-  📚 Source
-  <a class="heading-link" href="#-source">
+<h2 id="-sources-et-ressources">
+  📚 Sources et ressources
+  <a class="heading-link" href="#-sources-et-ressources">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
 <ul>
-<li>Article original sur CSO Online : <a href="https://www.csoonline.com/article/4117139/from-typos-to-takeovers-inside-the-industrialization-of-npm-supply-chain-attacks.html"  class="external-link" target="_blank" rel="noopener">From typos to takeovers: Inside the industrialization of npm supply chain attacks</a></li>
+<li><strong>Article principal</strong> : <a href="https://www.csoonline.com/article/4117139/from-typos-to-takeovers-inside-the-industrialization-of-npm-supply-chain-attacks.html"  class="external-link" target="_blank" rel="noopener">From typos to takeovers: Inside the industrialization of npm supply chain attacks</a> — CSO Online, 2025</li>
+<li><a href="https://docs.npmjs.com/packages-and-modules/securing-your-code"  class="external-link" target="_blank" rel="noopener">npm Security Best Practices</a> — Documentation officielle npm</li>
+<li><a href="https://security.snyk.io/"  class="external-link" target="_blank" rel="noopener">Snyk Vulnerability Database</a> — Base de données de vulnérabilités</li>
+<li><a href="https://socket.dev/"  class="external-link" target="_blank" rel="noopener">Socket.dev</a> — Outil d&rsquo;analyse de supply chain npm</li>
 </ul>
 
       </div>
