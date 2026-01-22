@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript on Daniel Vale</title><link>http://www.example.com/tags/javascript/</link><description>Recent content in JavaScript on Daniel Vale</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://www.example.com/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Anthropic rachète Bun.js</title><link>http://www.example.com/posts/anthropic/</link><pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate><guid>http://www.example.com/posts/anthropic/</guid><description>&lt;h1 id="anthropic-rachète-bunjs--ce-que-ça-signifie-pour-les-développeurs"&gt;
+ Anthropic rachète Bun.js : ce que ça signifie pour les développeurs
+ &lt;a class="heading-link" href="#anthropic-rach%c3%a8te-bunjs--ce-que-%c3%a7a-signifie-pour-les-d%c3%a9veloppeurs"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="-source"&gt;
+ 📖 Source
+ &lt;a class="heading-link" href="#-source"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Cet article est basé sur l&amp;rsquo;analyse publiée sur &lt;strong&gt;DEV Community&lt;/strong&gt; concernant l&amp;rsquo;acquisition de Bun.js par Anthropic.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://dev.to/meteroid/anthropic-just-bought-bunjs-heres-why-6bh" class="external-link" target="_blank" rel="noopener"&gt;Lien vers l&amp;rsquo;article original&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-le-contexte"&gt;
+ 📌 Le contexte
+ &lt;a class="heading-link" href="#-le-contexte"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Anthropic, la société derrière Claude, vient de réaliser &lt;strong&gt;sa toute première acquisition&lt;/strong&gt; : Bun.js, le runtime JavaScript ultra-rapide qui concurrence Node.js.&lt;/p&gt;</description></item><item><title>L'industrialisation des attaques supply chain sur npm</title><link>http://www.example.com/posts/npm/</link><pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate><guid>http://www.example.com/posts/npm/</guid><description>&lt;h1 id="-lindustrialisation-des-attaques-supply-chain-sur-npm"&gt;
+ 🔐 L&amp;rsquo;industrialisation des attaques supply chain sur npm
+ &lt;a class="heading-link" href="#-lindustrialisation-des-attaques-supply-chain-sur-npm"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="-source"&gt;
+ 📖 Source
+ &lt;a class="heading-link" href="#-source"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Cet article est basé sur l&amp;rsquo;analyse publiée par &lt;strong&gt;CSO Online&lt;/strong&gt; concernant l&amp;rsquo;évolution des attaques sur la supply chain npm.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.csoonline.com/article/4117139/from-typos-to-takeovers-inside-the-industrialization-of-npm-supply-chain-attacks.html" class="external-link" target="_blank" rel="noopener"&gt;Lien vers l&amp;rsquo;article original&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-introduction"&gt;
+ 📌 Introduction
+ &lt;a class="heading-link" href="#-introduction"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;écosystème &lt;strong&gt;npm&lt;/strong&gt;, pilier central du développement JavaScript et web moderne, est devenu une cible privilégiée pour les cybercriminels. L&amp;rsquo;article de CSO Online révèle une évolution alarmante : les attaques sont passées de simples tentatives de typosquatting opportunistes à des &lt;strong&gt;intrusions coordonnées et sophistiquées&lt;/strong&gt; ciblant directement les pipelines CI/CD et les mainteneurs de packages.&lt;/p&gt;</description></item><item><title>AWS SDK pour JavaScript : alignement sur le cycle Node.js</title><link>http://www.example.com/posts/aws/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate><guid>http://www.example.com/posts/aws/</guid><description>&lt;h1 id="aws-sdk-pour-javascript--alignement-sur-le-cycle-de-release-nodejs"&gt;
+ AWS SDK pour JavaScript : alignement sur le cycle de release Node.js
+ &lt;a class="heading-link" href="#aws-sdk-pour-javascript--alignement-sur-le-cycle-de-release-nodejs"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="-source"&gt;
+ 📖 Source
+ &lt;a class="heading-link" href="#-source"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Cet article est basé sur l&amp;rsquo;annonce officielle d&amp;rsquo;&lt;strong&gt;AWS&lt;/strong&gt; publiée sur leur blog développeur en janvier 2026.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://aws.amazon.com/fr/blogs/developer/aws-sdk-for-javascript-aligns-with-node-js-release-schedule/" class="external-link" target="_blank" rel="noopener"&gt;Lien vers l&amp;rsquo;article original&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-résumé"&gt;
+ 📌 Résumé
+ &lt;a class="heading-link" href="#-r%c3%a9sum%c3%a9"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;À partir de la deuxième semaine de &lt;strong&gt;janvier 2026&lt;/strong&gt;, AWS aligne officiellement le support de son SDK JavaScript v3 sur le calendrier de releases de Node.js. Le SDK sera testé sur toutes les versions LTS (Long-Term Support), avec une &lt;strong&gt;période de grâce de 8 mois&lt;/strong&gt; après la fin de vie officielle d&amp;rsquo;une version.&lt;/p&gt;</description></item></channel></rss>

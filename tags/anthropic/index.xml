@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Anthropic on Daniel Vale</title><link>http://www.example.com/tags/anthropic/</link><description>Recent content in Anthropic on Daniel Vale</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://www.example.com/tags/anthropic/index.xml" rel="self" type="application/rss+xml"/><item><title>Anthropic rachète Bun.js</title><link>http://www.example.com/posts/anthropic/</link><pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate><guid>http://www.example.com/posts/anthropic/</guid><description>&lt;h1 id="anthropic-rachète-bunjs--ce-que-ça-signifie-pour-les-développeurs"&gt;
+ Anthropic rachète Bun.js : ce que ça signifie pour les développeurs
+ &lt;a class="heading-link" href="#anthropic-rach%c3%a8te-bunjs--ce-que-%c3%a7a-signifie-pour-les-d%c3%a9veloppeurs"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="-source"&gt;
+ 📖 Source
+ &lt;a class="heading-link" href="#-source"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Cet article est basé sur l&amp;rsquo;analyse publiée sur &lt;strong&gt;DEV Community&lt;/strong&gt; concernant l&amp;rsquo;acquisition de Bun.js par Anthropic.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://dev.to/meteroid/anthropic-just-bought-bunjs-heres-why-6bh" class="external-link" target="_blank" rel="noopener"&gt;Lien vers l&amp;rsquo;article original&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-le-contexte"&gt;
+ 📌 Le contexte
+ &lt;a class="heading-link" href="#-le-contexte"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Anthropic, la société derrière Claude, vient de réaliser &lt;strong&gt;sa toute première acquisition&lt;/strong&gt; : Bun.js, le runtime JavaScript ultra-rapide qui concurrence Node.js.&lt;/p&gt;</description></item></channel></rss>
