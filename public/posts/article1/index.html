@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  BMAD Method vs Vibe Coding · Daniel Vale
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Daniel Vale">
+<meta name="description" content="Cet article compare deux approches du développement assisté par IA — le Vibe Coding intuitif et la méthode BMAD structurée — pour déterminer quand utiliser chacune selon le contexte de son projet">
+<meta name="keywords" content="blog,developer,personal,daniel,vale">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="BMAD Method vs Vibe Coding">
+  <meta name="twitter:description" content="Cet article compare deux approches du développement assisté par IA — le Vibe Coding intuitif et la méthode BMAD structurée — pour déterminer quand utiliser chacune selon le contexte de son projet">
+
+<meta property="og:url" content="http://localhost:1313/posts/article1/">
+  <meta property="og:site_name" content="Daniel Vale">
+  <meta property="og:title" content="BMAD Method vs Vibe Coding">
+  <meta property="og:description" content="Cet article compare deux approches du développement assisté par IA — le Vibe Coding intuitif et la méthode BMAD structurée — pour déterminer quand utiliser chacune selon le contexte de son projet">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-22T00:00:00+00:00">
+    <meta property="article:tag" content="IA">
+    <meta property="article:tag" content="Intelligence">
+    <meta property="article:tag" content="Artificielle">
+    <meta property="article:tag" content="Développement">
+    <meta property="article:tag" content="BMAD">
+    <meta property="article:tag" content="Vibe Coding">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/article1/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Daniel Vale
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">À propos</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/article1/">
+              BMAD Method vs Vibe Coding
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-01-22T00:00:00Z">
+                January 22, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/daniel-vale/">Daniel Vale</a></div>
+
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/outils-de-d%C3%A9veloppement/">Outils De Développement</a>
+      <span class="separator">•</span>
+    <a href="/categories/m%C3%A9thodologies/">Méthodologies</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/ia/">IA</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/intelligence/">Intelligence</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/artificielle/">Artificielle</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/d%C3%A9veloppement/">Développement</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/bmad/">BMAD</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/vibe-coding/">Vibe Coding</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/llm/">LLM</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/productivit%C3%A9/">Productivité</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h1 id="bmad-method-vs-vibe-coding--quelle-approche-pour-développer-avec-lia-">
+  BMAD Method vs Vibe Coding : Quelle approche pour développer avec l&rsquo;IA ?
+  <a class="heading-link" href="#bmad-method-vs-vibe-coding--quelle-approche-pour-d%c3%a9velopper-avec-lia-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="-contexte">
+  🎯 Contexte
+  <a class="heading-link" href="#-contexte">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>La façon dont les développeurs collaborent avec l&rsquo;IA est en pleine transformation. Deux philosophies s&rsquo;affrontent aujourd&rsquo;hui dans le monde du développement assisté par intelligence artificielle :</p>
+<table>
+  <thead>
+      <tr>
+          <th>Approche</th>
+          <th>Philosophie</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Vibe Coding</strong></td>
+          <td>Intuitive, conversationnelle, improvisée</td>
+      </tr>
+      <tr>
+          <td><strong>BMAD Method</strong></td>
+          <td>Structurée, agentique, orientée documentation</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-quest-ce-que-le-vibe-coding-">
+  🌊 Qu&rsquo;est-ce que le Vibe Coding ?
+  <a class="heading-link" href="#-quest-ce-que-le-vibe-coding-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Le <strong>vibe coding</strong> représente l&rsquo;approche informelle et intuitive du développement assisté par IA. Concrètement, cela signifie :</p>
+<ul>
+<li>Discuter de manière décontractée avec les assistants IA</li>
+<li>Improviser ses prompts selon les besoins immédiats</li>
+<li>Se fier à son instinct et son intuition</li>
+</ul>
+<h3 id="-les-limites-du-vibe-coding">
+  ⚠️ Les limites du Vibe Coding
+  <a class="heading-link" href="#-les-limites-du-vibe-coding">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Problème</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Dégradation du contexte</strong></td>
+          <td>L&rsquo;IA &ldquo;oublie&rdquo; les décisions précédentes au fil de la conversation</td>
+      </tr>
+      <tr>
+          <td><strong>Incohérence architecturale</strong></td>
+          <td>Chaque session repart de zéro, pas de vision globale</td>
+      </tr>
+      <tr>
+          <td><strong>Difficulté de handoff</strong></td>
+          <td>Impossible de transférer le travail entre phases de développement</td>
+      </tr>
+      <tr>
+          <td><strong>Planification instable</strong></td>
+          <td>Les changements d&rsquo;exigences créent du chaos</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>💡 <em>Cette méthode peut convenir pour de petits projets mais s&rsquo;effondre pour des applications complexes prêtes pour la production.</em></p>
+</blockquote>
+<hr>
+<h2 id="-la-méthode-bmad--une-réponse-structurée">
+  🏗️ La méthode BMAD : une réponse structurée
+  <a class="heading-link" href="#-la-m%c3%a9thode-bmad--une-r%c3%a9ponse-structur%c3%a9e">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><strong>BMAD</strong> = <em>Breakthrough Method for Agile AI-Driven Development</em></p>
+<h3 id="les-deux-innovations-clés">
+  Les deux innovations clés
+  <a class="heading-link" href="#les-deux-innovations-cl%c3%a9s">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<h4 id="1--planification-agentique">
+  1. 🤖 Planification Agentique
+  <a class="heading-link" href="#1--planification-agentique">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Des agents IA spécialisés collaborent pour créer une documentation solide :</p>
+<pre tabindex="0"><code>┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│   ANALYST   │ → │     PM      │ → │  ARCHITECT  │
+│             │    │             │    │             │
+│ Comprend le │    │ Rédige le   │    │ Définit la  │
+│ besoin      │    │ PRD         │    │ structure   │
+└─────────────┘    └─────────────┘    └─────────────┘
+</code></pre><h4 id="2--développement-à-contexte-optimisé">
+  2. 📋 Développement à Contexte Optimisé
+  <a class="heading-link" href="#2--d%c3%a9veloppement-%c3%a0-contexte-optimis%c3%a9">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>L&rsquo;agent <strong>Scrum Master</strong> transforme les plans en stories hyper-détaillées contenant tout ce dont l&rsquo;agent Dev a besoin.</p>
+<h3 id="pourquoi-ça-fonctionne-">
+  Pourquoi ça fonctionne ?
+  <a class="heading-link" href="#pourquoi-%c3%a7a-fonctionne-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Au cœur de BMAD, c&rsquo;est une méthode puissante pour <strong>dompter le chaos du vibe coding</strong> et le remplacer par un workflow structuré basé sur des personas. Plutôt qu&rsquo;une conversation unique avec un LLM, BMAD organise tout le processus autour d&rsquo;<strong>agents IA spécialisés distincts</strong>.</p>
+<hr>
+<h2 id="-quand-utiliser-chaque-approche-">
+  ⚖️ Quand utiliser chaque approche ?
+  <a class="heading-link" href="#-quand-utiliser-chaque-approche-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="-vibe-coding--idéal-pour-">
+  ✅ Vibe Coding — Idéal pour :
+  <a class="heading-link" href="#-vibe-coding--id%c3%a9al-pour-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>🎓 <strong>Apprentissage et expérimentation</strong></li>
+<li>🧪 Prototypage rapide</li>
+<li>📝 Scripts ponctuels</li>
+<li>🔍 Explorer ce que les LLM peuvent faire</li>
+</ul>
+<blockquote>
+<p><em>C&rsquo;est le meilleur outil pour aider les développeurs expérimentés à construire leur intuition sur ce que les LLM peuvent et ne peuvent pas faire pour eux.</em></p>
+</blockquote>
+<h3 id="-bmad-method--idéal-pour-">
+  ✅ BMAD Method — Idéal pour :
+  <a class="heading-link" href="#-bmad-method--id%c3%a9al-pour-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>🏭 <strong>Applications de production</strong> (qualité, sécurité, maintenabilité)</li>
+<li>👥 <strong>Équipes distribuées</strong> et projets complexes</li>
+<li>🏢 <strong>Architectures d&rsquo;entreprise</strong> (microservices, systèmes distribués)</li>
+<li>📚 Projets nécessitant une documentation exhaustive</li>
+</ul>
+<hr>
+<h2 id="-ce-que-ça-mapprend-en-tant-que-dev">
+  💡 Ce que ça m&rsquo;apprend en tant que Dev
+  <a class="heading-link" href="#-ce-que-%c3%a7a-mapprend-en-tant-que-dev">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-la-maturité-de-mes-outils-ia-doit-évoluer">
+  1. La maturité de mes outils IA doit évoluer
+  <a class="heading-link" href="#1-la-maturit%c3%a9-de-mes-outils-ia-doit-%c3%a9voluer">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Utiliser ChatGPT ou Claude de manière conversationnelle pour du code rapide, c&rsquo;est du vibe coding. <strong>Ça marche pour des scripts ponctuels, mais pour un vrai projet, je dois structurer mes interactions.</strong></p>
+<h3 id="2-la-documentation-nest-pas-optionnelle-avec-lia">
+  2. La documentation n&rsquo;est pas optionnelle avec l&rsquo;IA
+  <a class="heading-link" href="#2-la-documentation-nest-pas-optionnelle-avec-lia">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<blockquote>
+<p><em>Le problème central est le manque de contexte persistant et d&rsquo;une compréhension claire et partagée des objectifs du projet, de l&rsquo;architecture et des contraintes.</em></p>
+</blockquote>
+<p>Si je veux que l&rsquo;IA m&rsquo;aide efficacement sur la durée, <strong>je dois investir dans la documentation en amont</strong>.</p>
+<h3 id="3-penser-en-agents-spécialisés">
+  3. Penser en &ldquo;agents spécialisés&rdquo;
+  <a class="heading-link" href="#3-penser-en-agents-sp%c3%a9cialis%c3%a9s">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>L&rsquo;idée d&rsquo;avoir des personas différentes pour chaque phase est transposable même sans utiliser BMAD :</p>
+<table>
+  <thead>
+      <tr>
+          <th>Phase</th>
+          <th>Persona/Prompt adapté</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Conception</td>
+          <td>&ldquo;Tu es un architecte logiciel senior&hellip;&rdquo;</td>
+      </tr>
+      <tr>
+          <td>Planning</td>
+          <td>&ldquo;Tu es un Scrum Master expérimenté&hellip;&rdquo;</td>
+      </tr>
+      <tr>
+          <td>Implémentation</td>
+          <td>&ldquo;Tu es un développeur expert en&hellip;&rdquo;</td>
+      </tr>
+      <tr>
+          <td>Review</td>
+          <td>&ldquo;Tu es un code reviewer rigoureux&hellip;&rdquo;</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="4-lavenir-du-dev-cest-lingénierie-de-contexte">
+  4. L&rsquo;avenir du dev, c&rsquo;est l&rsquo;ingénierie de contexte
+  <a class="heading-link" href="#4-lavenir-du-dev-cest-ling%c3%a9nierie-de-contexte">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<blockquote>
+<p><em>Le rôle du développeur évolue. Dans un futur piloté par les agents, les compétences premium sont la pensée architecturale, la définition précise des problèmes, et l&rsquo;évaluation critique des outputs de l&rsquo;IA.</em></p>
+</blockquote>
+<hr>
+<h2 id="-conclusion">
+  🎯 Conclusion
+  <a class="heading-link" href="#-conclusion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Le choix entre BMAD et vibe coding <strong>n&rsquo;est pas binaire</strong> — c&rsquo;est une question de contexte. Mais une chose est claire :</p>
+<blockquote>
+<p><strong>Le choix entre ces deux approches représente une décision fondamentale sur la professionnalisation du développement assisté par IA.</strong></p>
+</blockquote>
+<p>En tant que développeur passionné par les nouvelles technologies, comprendre ces méthodologies me permettra de :</p>
+<ul>
+<li>✅ Mieux intégrer l&rsquo;IA dans mes workflows</li>
+<li>✅ Produire du code de meilleure qualité</li>
+<li>✅ Créer des projets plus maintenables</li>
+<li>✅ Rester compétitif dans un monde où l&rsquo;IA devient incontournable</li>
+</ul>
+<hr>
+<h2 id="-pour-aller-plus-loin">
+  📚 Pour aller plus loin
+  <a class="heading-link" href="#-pour-aller-plus-loin">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><a href="https://github.com/bmad-code-org/BMAD-METHOD"  class="external-link" target="_blank" rel="noopener">BMAD-METHOD sur GitHub</a></li>
+<li>Article original sur Medium : <a href="https://medium.com/@visrow/bmad-method-vs-vibe-coding-structured-ai-development-vs-intuitive-programming-6d57957a42d5"  class="external-link" target="_blank" rel="noopener"><em>&ldquo;BMAD-Method vs Vibe Coding&rdquo;</em> par Vishal Mysore</a></li>
+</ul>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2026
+     Daniel Vale 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

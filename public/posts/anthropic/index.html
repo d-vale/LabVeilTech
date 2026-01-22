@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Anthropic rachète Bun.js · Daniel Vale
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Daniel Vale">
+<meta name="description" content="Anthropic réalise sa première acquisition en rachetant Bun.js, le runtime JavaScript ultra-rapide, révélant sa stratégie de contrôler l&#39;infrastructure sur laquelle les agents IA du futur s&#39;exécuteront.">
+<meta name="keywords" content="blog,developer,personal,daniel,vale">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Anthropic rachète Bun.js">
+  <meta name="twitter:description" content="Anthropic réalise sa première acquisition en rachetant Bun.js, le runtime JavaScript ultra-rapide, révélant sa stratégie de contrôler l&#39;infrastructure sur laquelle les agents IA du futur s&#39;exécuteront.">
+
+<meta property="og:url" content="http://localhost:1313/posts/anthropic/">
+  <meta property="og:site_name" content="Daniel Vale">
+  <meta property="og:title" content="Anthropic rachète Bun.js">
+  <meta property="og:description" content="Anthropic réalise sa première acquisition en rachetant Bun.js, le runtime JavaScript ultra-rapide, révélant sa stratégie de contrôler l&#39;infrastructure sur laquelle les agents IA du futur s&#39;exécuteront.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-22T00:00:00+00:00">
+    <meta property="article:tag" content="Bun.js">
+    <meta property="article:tag" content="Anthropic">
+    <meta property="article:tag" content="Claude">
+    <meta property="article:tag" content="JavaScript">
+    <meta property="article:tag" content="Runtime">
+    <meta property="article:tag" content="IA">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/anthropic/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Daniel Vale
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">À propos</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/anthropic/">
+              Anthropic rachète Bun.js
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-01-22T00:00:00Z">
+                January 22, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/daniel-vale/">Daniel Vale</a></div>
+
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/outils-de-d%C3%A9veloppement/">Outils De Développement</a>
+      <span class="separator">•</span>
+    <a href="/categories/intelligence-artificielle/">Intelligence Artificielle</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/bun.js/">Bun.js</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/anthropic/">Anthropic</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/claude/">Claude</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/javascript/">JavaScript</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/runtime/">Runtime</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/ia/">IA</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h1 id="anthropic-rachète-bunjs--ce-que-ça-signifie-pour-les-développeurs">
+  Anthropic rachète Bun.js : ce que ça signifie pour les développeurs
+  <a class="heading-link" href="#anthropic-rach%c3%a8te-bunjs--ce-que-%c3%a7a-signifie-pour-les-d%c3%a9veloppeurs">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="le-contexte">
+  Le contexte
+  <a class="heading-link" href="#le-contexte">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Anthropic, la société derrière Claude, vient de réaliser <strong>sa toute première acquisition</strong> : Bun.js, le runtime JavaScript ultra-rapide qui concurrence Node.js.</p>
+<p>Ce choix n&rsquo;est pas anodin : <strong>Claude Code est distribué comme un exécutable Bun</strong>. Autrement dit, quand tu installes Claude Code, tu exécutes Bun sous le capot.</p>
+<blockquote>
+<p>💡 <strong>Chiffre clé :</strong> Claude Code a atteint 1 milliard de dollars de revenus annuels seulement 6 mois après son lancement public.</p>
+</blockquote>
+<hr>
+<h2 id="pourquoi-cette-acquisition-">
+  Pourquoi cette acquisition ?
+  <a class="heading-link" href="#pourquoi-cette-acquisition-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>L&rsquo;article identifie <strong>trois phases</strong> dans l&rsquo;évolution des outils de développement IA :</p>
+<table>
+  <thead>
+      <tr>
+          <th>Phase</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Phase 1</strong></td>
+          <td>Les LLM génèrent du code, les humains l&rsquo;exécutent (copier-coller depuis ChatGPT)</td>
+      </tr>
+      <tr>
+          <td><strong>Phase 2</strong></td>
+          <td>Les LLM appellent des outils via function calling et MCP, mais tout reste orchestré et contraint</td>
+      </tr>
+      <tr>
+          <td><strong>Phase 3</strong> <em>(à venir)</em></td>
+          <td>Des agents autonomes qui créent leurs propres outils à la volée, les compilent, les exécutent et itèrent</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="le-runtime-comme-système-dexploitation-des-agents">
+  Le runtime comme système d&rsquo;exploitation des agents
+  <a class="heading-link" href="#le-runtime-comme-syst%c3%a8me-dexploitation-des-agents">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Si la Phase 3 se concrétise, le runtime ne sera plus simplement l&rsquo;endroit où le code s&rsquo;exécute. Il deviendra <strong>le système d&rsquo;exploitation des agents IA</strong>. Anthropic veut posséder cette couche.</p>
+<h3 id="lavantage-technique-de-bun">
+  L&rsquo;avantage technique de Bun
+  <a class="heading-link" href="#lavantage-technique-de-bun">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Bun permet de <strong>compiler des projets en exécutables autonomes</strong> : un seul fichier, pas de dépendances, pas besoin d&rsquo;installer Node. C&rsquo;est exactement ce qui permet à Claude Code d&rsquo;être distribué proprement à des millions de machines.</p>
+<hr>
+<h2 id="ce-que-ça-change-pour-les-développeurs-javascript">
+  Ce que ça change pour les développeurs JavaScript
+  <a class="heading-link" href="#ce-que-%c3%a7a-change-pour-les-d%c3%a9veloppeurs-javascript">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="-le-positif">
+  ✅ Le positif
+  <a class="heading-link" href="#-le-positif">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Pérennité assurée</strong> : Bun avait 26M$ de financement mais zéro revenu et un business model flou (&ldquo;on fera du cloud hosting un jour&rdquo;). Ce problème est résolu.</li>
+<li><strong>Alignement des intérêts</strong> : Anthropic a besoin de vitesse, stabilité et compatibilité Node — exactement ce que veulent tous les développeurs.</li>
+</ul>
+<h3 id="-les-points-de-vigilance">
+  ⚠️ Les points de vigilance
+  <a class="heading-link" href="#-les-points-de-vigilance">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>La roadmap de Bun a un nouveau stakeholder principal avec des priorités spécifiques</li>
+<li>À surveiller dans les prochains mois :
+<ul>
+<li>La compatibilité Node.js continue-t-elle de s&rsquo;améliorer ?</li>
+<li>Les optimisations spécifiques aux agents vont-elles prendre le pas sur les fonctionnalités générales ?</li>
+<li>La réactivité sur les issues GitHub reste-t-elle bonne ?</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="ce-que-ça-mapprend-en-tant-que-développeur">
+  Ce que ça m&rsquo;apprend en tant que développeur
+  <a class="heading-link" href="#ce-que-%c3%a7a-mapprend-en-tant-que-d%c3%a9veloppeur">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-linfrastructure-devient-stratégique-pour-lia">
+  1. L&rsquo;infrastructure devient stratégique pour l&rsquo;IA
+  <a class="heading-link" href="#1-linfrastructure-devient-strat%c3%a9gique-pour-lia">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Anthropic ne mise pas sur une meilleure interface de chat, mais sur <strong>l&rsquo;intégration profonde dans la façon dont le logiciel est construit</strong>. C&rsquo;est une vision différente d&rsquo;OpenAI qui investit plutôt côté consommateur.</p>
+<h3 id="2-les-runtimes-modernes-méritent-notre-attention">
+  2. Les runtimes modernes méritent notre attention
+  <a class="heading-link" href="#2-les-runtimes-modernes-m%c3%a9ritent-notre-attention">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Si les agents IA deviennent les premiers utilisateurs de nos outils de développement, comprendre le fonctionnement de runtimes comme Bun devient un <strong>avantage compétitif</strong>.</p>
+<h3 id="3-la-distribution-simplifiée-compte">
+  3. La distribution simplifiée compte
+  <a class="heading-link" href="#3-la-distribution-simplifi%c3%a9e-compte">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>La capacité de Bun à produire des exécutables autonomes répond à un vrai problème : comment distribuer des outils à grande échelle sans friction. C&rsquo;est un pattern à garder en tête pour nos propres projets.</p>
+<hr>
+<h2 id="en-résumé">
+  En résumé
+  <a class="heading-link" href="#en-r%c3%a9sum%c3%a9">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<blockquote>
+<p><em>&ldquo;Le contributeur le plus actif sur Bun est déjà un agent IA. Ce n&rsquo;est pas le futur — c&rsquo;est maintenant.&rdquo;</em></p>
+</blockquote>
+<p>Cette acquisition marque un tournant : les entreprises d&rsquo;IA investissent désormais dans les fondations mêmes du développement logiciel. Pour nous développeurs, c&rsquo;est le signal qu&rsquo;il faut rester attentifs à cette convergence entre IA et outillage.</p>
+<hr>
+<h2 id="-source">
+  📚 Source
+  <a class="heading-link" href="#-source">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Article original sur DEV : <a href="https://dev.to/meteroid/anthropic-just-bought-bunjs-heres-why-6bh"  class="external-link" target="_blank" rel="noopener">Anthropic just acquired Bun.js. Here&rsquo;s why.</a></li>
+</ul>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2026
+     Daniel Vale 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

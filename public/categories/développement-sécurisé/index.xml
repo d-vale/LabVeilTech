@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Développement Sécurisé on Daniel Vale</title>
+    <link>http://localhost:1313/categories/d%C3%A9veloppement-s%C3%A9curis%C3%A9/</link>
+    <description>Recent content in Développement Sécurisé on Daniel Vale</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/d%C3%A9veloppement-s%C3%A9curis%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L&#39;industrialisation des attaques supply chain sur npm</title>
+      <link>http://localhost:1313/posts/npm/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/npm/</guid>
+      <description>&lt;h1 id=&#34;-lindustrialisation-des-attaques-supply-chain-sur-npm&#34;&gt;&#xA;  🔐 L&amp;rsquo;industrialisation des attaques supply chain sur npm&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-lindustrialisation-des-attaques-supply-chain-sur-npm&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-introduction&#34;&gt;&#xA;  📌 Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;écosystème &lt;strong&gt;npm&lt;/strong&gt;, pilier central du développement JavaScript et web moderne, est devenu une cible privilégiée pour les cybercriminels. Un article récent de CSO Online révèle une évolution alarmante : les attaques sont passées de simples tentatives de typosquatting opportunistes à des &lt;strong&gt;intrusions coordonnées et sophistiquées&lt;/strong&gt; ciblant directement les pipelines CI/CD et les mainteneurs de packages.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
