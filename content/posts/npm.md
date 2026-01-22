@@ -18,9 +18,17 @@ categories = [
 
 # 🔐 L'industrialisation des attaques supply chain sur npm
 
+## 📖 Source
+
+Cet article est basé sur l'analyse publiée par **CSO Online** concernant l'évolution des attaques sur la supply chain npm.
+
+🔗 [Lien vers l'article original](https://www.csoonline.com/article/4117139/from-typos-to-takeovers-inside-the-industrialization-of-npm-supply-chain-attacks.html)
+
+---
+
 ## 📌 Introduction
 
-L'écosystème **npm**, pilier central du développement JavaScript et web moderne, est devenu une cible privilégiée pour les cybercriminels. Un article récent de CSO Online révèle une évolution alarmante : les attaques sont passées de simples tentatives de typosquatting opportunistes à des **intrusions coordonnées et sophistiquées** ciblant directement les pipelines CI/CD et les mainteneurs de packages.
+L'écosystème **npm**, pilier central du développement JavaScript et web moderne, est devenu une cible privilégiée pour les cybercriminels. L'article de CSO Online révèle une évolution alarmante : les attaques sont passées de simples tentatives de typosquatting opportunistes à des **intrusions coordonnées et sophistiquées** ciblant directement les pipelines CI/CD et les mainteneurs de packages.
 
 ---
 
@@ -70,21 +78,53 @@ Les attaquants utilisent désormais :
 
 ---
 
-## 💡 Ce que cela m'apprend en tant que développeur
+## 💡 Pourquoi cet article m'intéresse en tant que Dev ?
+
+### Lien avec mon domaine
+
+En tant que développeur spécialisé dans le **développement web** (comme indiqué dans mon Ikigai), npm fait partie intégrante de mon quotidien. Chaque projet JavaScript ou TypeScript que je crée repose sur des dizaines, voire des centaines de dépendances npm.
+
+Cet article me concerne directement car :
+
+- Je suis **responsable de la sécurité** du code que je livre
+- Mes projets utilisent **des pipelines CI/CD** (GitHub Actions, etc.)
+- La **valorisation du travail** passe aussi par sa qualité et sa sécurité — un projet compromis, c'est une réputation en jeu
+
+La sécurité n'est pas un "nice to have" — c'est une compétence essentielle pour tout développeur professionnel.
+
+---
+
+## 🕐 À quel moment cela me sera utile ?
+
+### Situations concrètes d'application
+
+| Situation                                                 | Risque identifié                       | Action à prendre                                                  |
+| --------------------------------------------------------- | -------------------------------------- | ----------------------------------------------------------------- |
+| Je fais `npm install` sur un **nouveau projet**           | Package malveillant potentiel          | Vérifier le mainteneur, l'historique, utiliser `--ignore-scripts` |
+| J'ajoute une **nouvelle dépendance** à un projet existant | Supply chain compromise                | Auditer avec `npm audit`, épingler la version exacte              |
+| Je configure un **pipeline CI/CD**                        | Runner = cible prioritaire             | Limiter les permissions, rotation des tokens                      |
+| Je publie un **package npm** moi-même                     | Mon compte peut être ciblé             | Activer 2FA, utiliser des tokens scoped                           |
+| Je fais une **code review**                               | Dépendances cachées possibles          | Vérifier les ajouts dans `package.json` et `package-lock.json`    |
+| Je maintiens un **projet legacy**                         | Dépendances obsolètes = vulnérabilités | Audit régulier, mise à jour des packages critiques                |
+| Je travaille sur un **projet client sensible**            | Responsabilité accrue                  | Appliquer toutes les bonnes pratiques de sécurité                 |
+
+---
+
+## 🛡️ Ce que ça m'apprend concrètement
 
 ### 1️⃣ La confiance aveugle est dangereuse
 
-Chaque `npm install` représente un risque potentiel. Il faut vérifier :
+Chaque `npm install` représente un risque potentiel. **Je dois systématiquement vérifier** :
 
 - La légitimité du package
 - L'identité du mainteneur
 - L'historique des commits et versions
 
-### 2️⃣ Les pipelines CI/CD sont des cibles prioritaires
+### 2️⃣ Mes pipelines CI/CD sont des cibles prioritaires
 
-Les runners CI ont souvent des **permissions plus élevées** que les postes de développement local. Ils doivent être traités comme des **actifs de production**.
+Les runners CI ont souvent des **permissions plus élevées** que mon poste local. Je dois les traiter comme des **actifs de production**.
 
-### 3️⃣ Bonnes pratiques à adopter immédiatement
+### 3️⃣ Bonnes pratiques que je dois adopter immédiatement
 
 ```bash
 # Épingler les versions (éviter les ranges)
@@ -97,18 +137,19 @@ npm install --ignore-scripts
 npm audit
 ```
 
-**Checklist sécurité :**
+**Ma checklist sécurité npm :**
 
 - [ ] Épingler les dépendances à des versions exactes
 - [ ] Désactiver les scripts de lifecycle par défaut
 - [ ] Auditer régulièrement avec `npm audit`
 - [ ] Rotation fréquente des tokens de publication
 - [ ] Limiter la portée des tokens (`--scope`)
+- [ ] Activer 2FA sur mon compte npm
 - [ ] Utiliser des outils d'analyse comportementale
 
-### 4️⃣ L'importance de la veille sécurité
+### 4️⃣ L'importance de la veille sécurité continue
 
-Les techniques d'attaque évoluent constamment. Ce qui était détectable manuellement hier est aujourd'hui masqué derrière des couches d'obfuscation et d'exécution conditionnelle.
+Les techniques d'attaque évoluent constamment. Ce qui était détectable manuellement hier est aujourd'hui masqué derrière des couches d'obfuscation. **Rester informé fait partie de mon métier.**
 
 ---
 
@@ -122,18 +163,25 @@ Les techniques d'attaque évoluent constamment. Ce qui était détectable manuel
 
 ---
 
-## ✅ Conclusion
+## 🎯 Ce que je retiens
 
-Cet article illustre comment la **supply chain logicielle** est devenue un vecteur d'attaque majeur. Pour un développeur, comprendre ces menaces n'est plus optionnel mais **essentiel** pour protéger ses projets et ses utilisateurs.
+Cet article illustre comment la **supply chain logicielle** est devenue un vecteur d'attaque majeur. Comprendre ces menaces n'est plus optionnel mais **essentiel** pour protéger mes projets et mes utilisateurs.
 
-**Les 3 points à retenir :**
+### Points clés pour ma pratique :
 
-1. 🔍 **Auditer** systématiquement les dépendances
-2. 🔒 **Sécuriser** les environnements CI/CD comme la production
-3. 📚 **Se former** continuellement aux nouvelles menaces
+- ✅ **Auditer systématiquement** les dépendances avant et après installation
+- ✅ **Sécuriser mes CI/CD** comme des environnements de production
+- ✅ **Épingler les versions** pour éviter les mises à jour malveillantes automatiques
+- ✅ **Activer 2FA** sur npm et tous mes comptes liés au code
+- ✅ **Rester vigilant** — la sécurité est un processus continu, pas un état
+
+> **La sécurité de mon code commence par la sécurité de mes dépendances. Chaque `npm install` est un acte de confiance qui doit être vérifié.**
 
 ---
 
-## 📚 Source
+## 📚 Sources et ressources
 
-- Article original sur CSO Online : [From typos to takeovers: Inside the industrialization of npm supply chain attacks](https://www.csoonline.com/article/4117139/from-typos-to-takeovers-inside-the-industrialization-of-npm-supply-chain-attacks.html)
+- **Article principal** : [From typos to takeovers: Inside the industrialization of npm supply chain attacks](https://www.csoonline.com/article/4117139/from-typos-to-takeovers-inside-the-industrialization-of-npm-supply-chain-attacks.html) — CSO Online, 2025
+- [npm Security Best Practices](https://docs.npmjs.com/packages-and-modules/securing-your-code) — Documentation officielle npm
+- [Snyk Vulnerability Database](https://security.snyk.io/) — Base de données de vulnérabilités
+- [Socket.dev](https://socket.dev/) — Outil d'analyse de supply chain npm

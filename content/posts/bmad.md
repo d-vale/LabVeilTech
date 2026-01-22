@@ -21,6 +21,14 @@ categories = [
 
 # BMAD Method vs Vibe Coding : Quelle approche pour développer avec l'IA ?
 
+## 📖 Source
+
+Cet article est basé sur l'analyse de l'article **"BMAD-Method vs Vibe Coding: Structured AI Development vs Intuitive Programming"** publié par **Vishal Mysore** sur Medium en septembre 2025.
+
+🔗 [Lien vers l'article original](https://medium.com/@visrow/bmad-method-vs-vibe-coding-structured-ai-development-vs-intuitive-programming-6d57957a42d5)
+
+---
+
 ## 🎯 Contexte
 
 La façon dont les développeurs collaborent avec l'IA est en pleine transformation. Deux philosophies s'affrontent aujourd'hui dans le monde du développement assisté par intelligence artificielle :
@@ -49,13 +57,13 @@ Le **vibe coding** représente l'approche informelle et intuitive du développem
 | **Difficulté de handoff**      | Impossible de transférer le travail entre phases de développement |
 | **Planification instable**     | Les changements d'exigences créent du chaos                       |
 
-> 💡 _Cette méthode peut convenir pour de petits projets mais s'effondre pour des applications complexes prêtes pour la production._
+> 💡 Selon l'article source : *"Cette méthode peut convenir pour de petits projets mais s'effondre pour des applications complexes prêtes pour la production."*
 
 ---
 
 ## 🏗️ La méthode BMAD : une réponse structurée
 
-**BMAD** = _Breakthrough Method for Agile AI-Driven Development_
+**BMAD** = *Breakthrough Method for Agile AI-Driven Development*
 
 ### Les deux innovations clés
 
@@ -91,8 +99,6 @@ Au cœur de BMAD, c'est une méthode puissante pour **dompter le chaos du vibe c
 - 📝 Scripts ponctuels
 - 🔍 Explorer ce que les LLM peuvent faire
 
-> _C'est le meilleur outil pour aider les développeurs expérimentés à construire leur intuition sur ce que les LLM peuvent et ne peuvent pas faire pour eux._
-
 ### ✅ BMAD Method — Idéal pour :
 
 - 🏭 **Applications de production** (qualité, sécurité, maintenabilité)
@@ -102,19 +108,44 @@ Au cœur de BMAD, c'est une méthode puissante pour **dompter le chaos du vibe c
 
 ---
 
-## 💡 Ce que ça m'apprend en tant que Dev
+## 💡 Pourquoi cet article m'intéresse en tant que Dev ?
 
-### 1. La maturité de mes outils IA doit évoluer
+### Lien avec mon domaine
+
+En tant que développeur passionné par l'**informatique** et les **nouvelles technologies** (comme indiqué dans mon Ikigai), cet article touche directement à l'évolution de mon métier. L'IA transforme la façon dont on code, et comprendre les différentes méthodologies pour l'utiliser efficacement est essentiel pour rester compétitif.
+
+Le développement web fait partie de ce pour quoi je suis rémunéré, et savoir **optimiser ma collaboration avec l'IA** impacte directement ma productivité et la qualité de mon travail.
+
+---
+
+## 🕐 À quel moment cela me sera utile ?
+
+### Situations concrètes d'application
+
+| Situation | Approche à utiliser | Pourquoi |
+|-----------|---------------------|----------|
+| Je dois faire un **script rapide** pour automatiser une tâche | Vibe Coding | Pas besoin de structure, je veux juste un résultat rapide |
+| Je démarre un **projet client** avec plusieurs fonctionnalités | BMAD | Je dois maintenir une cohérence architecturale sur la durée |
+| Je veux **apprendre une nouvelle techno** (ex: un nouveau framework) | Vibe Coding | L'exploration intuitive m'aide à comprendre les capacités |
+| Je travaille en **équipe** sur une application | BMAD | La documentation et les agents spécialisés facilitent le handoff |
+| Je fais une **preuve de concept** pour valider une idée | Vibe Coding | Rapidité > structure à ce stade |
+| Je développe une **API de production** | BMAD | Sécurité, maintenabilité et tests sont critiques |
+
+---
+
+## 🎯 Ce que ça m'apprend concrètement
+
+### 1. Structurer mes interactions avec l'IA
 
 Utiliser ChatGPT ou Claude de manière conversationnelle pour du code rapide, c'est du vibe coding. **Ça marche pour des scripts ponctuels, mais pour un vrai projet, je dois structurer mes interactions.**
 
-### 2. La documentation n'est pas optionnelle avec l'IA
+### 2. La documentation devient un investissement rentable
 
-> _Le problème central est le manque de contexte persistant et d'une compréhension claire et partagée des objectifs du projet, de l'architecture et des contraintes._
+> *"Le problème central est le manque de contexte persistant et d'une compréhension claire et partagée des objectifs du projet."* — Article source
 
-Si je veux que l'IA m'aide efficacement sur la durée, **je dois investir dans la documentation en amont**.
+Si je veux que l'IA m'aide efficacement sur la durée, **je dois investir dans la documentation en amont**. Ce temps "perdu" à documenter est en fait gagné sur le long terme.
 
-### 3. Penser en "agents spécialisés"
+### 3. Adopter des personas selon la phase du projet
 
 L'idée d'avoir des personas différentes pour chaque phase est transposable même sans utiliser BMAD :
 
@@ -125,28 +156,30 @@ L'idée d'avoir des personas différentes pour chaque phase est transposable mê
 | Implémentation | "Tu es un développeur expert en..."      |
 | Review         | "Tu es un code reviewer rigoureux..."    |
 
-### 4. L'avenir du dev, c'est l'ingénierie de contexte
+### 4. Développer mes compétences en "ingénierie de contexte"
 
-> _Le rôle du développeur évolue. Dans un futur piloté par les agents, les compétences premium sont la pensée architecturale, la définition précise des problèmes, et l'évaluation critique des outputs de l'IA._
+> *"Le rôle du développeur évolue. Dans un futur piloté par les agents, les compétences premium sont la pensée architecturale, la définition précise des problèmes, et l'évaluation critique des outputs de l'IA."*
+
+**C'est une compétence que je dois développer dès maintenant** pour rester pertinent dans les années à venir.
 
 ---
 
 ## 🎯 Conclusion
 
-Le choix entre BMAD et vibe coding **n'est pas binaire** — c'est une question de contexte. Mais une chose est claire :
+Le choix entre BMAD et vibe coding **n'est pas binaire** — c'est une question de contexte. Cet article m'a permis de comprendre que :
 
 > **Le choix entre ces deux approches représente une décision fondamentale sur la professionnalisation du développement assisté par IA.**
 
-En tant que développeur passionné par les nouvelles technologies, comprendre ces méthodologies me permettra de :
+### Ce que je retiens pour ma pratique :
 
-- ✅ Mieux intégrer l'IA dans mes workflows
-- ✅ Produire du code de meilleure qualité
-- ✅ Créer des projets plus maintenables
-- ✅ Rester compétitif dans un monde où l'IA devient incontournable
+- ✅ **Vibe coding** pour l'apprentissage, les POC et les scripts rapides
+- ✅ **Approche structurée (type BMAD)** pour les projets de production
+- ✅ **Investir dans la documentation** pour maintenir le contexte avec l'IA
+- ✅ **Développer mes compétences en prompt engineering** et ingénierie de contexte
 
 ---
 
-## 📚 Pour aller plus loin
+## 📚 Sources et ressources
 
-- [BMAD-METHOD sur GitHub](https://github.com/bmad-code-org/BMAD-METHOD)
-- Article original sur Medium : [_"BMAD-Method vs Vibe Coding"_ par Vishal Mysore](https://medium.com/@visrow/bmad-method-vs-vibe-coding-structured-ai-development-vs-intuitive-programming-6d57957a42d5)
+- **Article principal** : [BMAD-Method vs Vibe Coding](https://medium.com/@visrow/bmad-method-vs-vibe-coding-structured-ai-development-vs-intuitive-programming-6d57957a42d5) — Vishal Mysore, Medium, Septembre 2025
+- **Repository GitHub** : [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
