@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daniel Vale</title><link>https://d-vale.github.io/LabVeilTech/</link><description>Recent content on Daniel Vale</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://d-vale.github.io/LabVeilTech/index.xml" rel="self" type="application/rss+xml"/><item><title>Anthropic rachète Bun.js</title><link>https://d-vale.github.io/LabVeilTech/posts/anthropic/</link><pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate><guid>https://d-vale.github.io/LabVeilTech/posts/anthropic/</guid><description>&lt;h1 id="anthropic-rachète-bunjs--ce-que-ça-signifie-pour-les-développeurs"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daniel Vale</title><link>https://d-vale.github.io/LabVeilTech/</link><description>Recent content on Daniel Vale</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://d-vale.github.io/LabVeilTech/index.xml" rel="self" type="application/rss+xml"/><item><title>Les LLM et l'apprentissage</title><link>https://d-vale.github.io/LabVeilTech/posts/llm/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://d-vale.github.io/LabVeilTech/posts/llm/</guid><description>&lt;h1 id="-les-llm-et-lapprentissage--révolution-ou-danger-pour-les-développeurs-"&gt;
+ 🧠 Les LLM et l&amp;rsquo;apprentissage : révolution ou danger pour les développeurs ?
+ &lt;a class="heading-link" href="#-les-llm-et-lapprentissage--r%c3%a9volution-ou-danger-pour-les-d%c3%a9veloppeurs-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="-pourquoi-cet-article-"&gt;
+ 📌 Pourquoi cet article ?
+ &lt;a class="heading-link" href="#-pourquoi-cet-article-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;ai récemment regardé la vidéo &lt;strong&gt;&amp;ldquo;La Fabrique à Idiots&amp;rdquo;&lt;/strong&gt; de &lt;strong&gt;Micode&lt;/strong&gt; sur YouTube, et elle m&amp;rsquo;a profondément fait réfléchir sur ma propre utilisation des LLM en tant qu&amp;rsquo;étudiant. Cette vidéo aborde un sujet qui me touche directement : l&amp;rsquo;impact de l&amp;rsquo;intelligence artificielle sur notre capacité à apprendre et à réfléchir par nous-mêmes.&lt;/p&gt;</description></item><item><title>Mon système de veille technologique</title><link>https://d-vale.github.io/LabVeilTech/posts/system/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://d-vale.github.io/LabVeilTech/posts/system/</guid><description>&lt;h1 id="mon-système-de-veille-technologique--lapproche-page-daccueil"&gt;
+ Mon système de veille technologique : l&amp;rsquo;approche &amp;ldquo;page d&amp;rsquo;accueil&amp;rdquo;
+ &lt;a class="heading-link" href="#mon-syst%c3%a8me-de-veille-technologique--lapproche-page-daccueil"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="pourquoi-jai-évité-les-newsletters-traditionnelles"&gt;
+ Pourquoi j&amp;rsquo;ai évité les newsletters traditionnelles
+ &lt;a class="heading-link" href="#pourquoi-jai-%c3%a9vit%c3%a9-les-newsletters-traditionnelles"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Quand on parle de veille technologique, la première recommandation qu&amp;rsquo;on entend souvent est de s&amp;rsquo;inscrire à des newsletters. C&amp;rsquo;est une approche qui fonctionne pour beaucoup de monde, mais pas pour moi.&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;ai une particularité : j&amp;rsquo;aime garder ma boîte mail vide. Quand je reçois trop de courriers, même s&amp;rsquo;ils sont potentiellement intéressants, ça m&amp;rsquo;agace rapidement. Le résultat ? Je finis par sélectionner tous les mails non lus, les mettre à la poubelle et les supprimer définitivement sans même y jeter un œil. Ce n&amp;rsquo;est clairement pas la meilleure façon de faire de la veille.&lt;/p&gt;</description></item><item><title>Anthropic rachète Bun.js</title><link>https://d-vale.github.io/LabVeilTech/posts/anthropic/</link><pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate><guid>https://d-vale.github.io/LabVeilTech/posts/anthropic/</guid><description>&lt;h1 id="anthropic-rachète-bunjs--ce-que-ça-signifie-pour-les-développeurs"&gt;
  Anthropic rachète Bun.js : ce que ça signifie pour les développeurs
  &lt;a class="heading-link" href="#anthropic-rach%c3%a8te-bunjs--ce-que-%c3%a7a-signifie-pour-les-d%c3%a9veloppeurs"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
