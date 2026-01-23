@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daniel Vale</title><link>https://d-vale.github.io/LabVeilTech/</link><description>Recent content on Daniel Vale</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://d-vale.github.io/LabVeilTech/index.xml" rel="self" type="application/rss+xml"/><item><title>Les LLM et l'apprentissage</title><link>https://d-vale.github.io/LabVeilTech/posts/llm/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://d-vale.github.io/LabVeilTech/posts/llm/</guid><description>&lt;h1 id="-les-llm-et-lapprentissage--révolution-ou-danger-pour-les-développeurs-"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daniel Vale</title><link>https://d-vale.github.io/LabVeilTech/</link><description>Recent content on Daniel Vale</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://d-vale.github.io/LabVeilTech/index.xml" rel="self" type="application/rss+xml"/><item><title>À propos</title><link>https://d-vale.github.io/LabVeilTech/about/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://d-vale.github.io/LabVeilTech/about/</guid><description>&lt;h2 id="-qui-suis-je-"&gt;
+ 👋 Qui suis-je ?
+ &lt;a class="heading-link" href="#-qui-suis-je-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Je m&amp;rsquo;appelle &lt;strong&gt;Daniel Vale&lt;/strong&gt;, je suis étudiant passionné par le développement web et les nouvelles technologies.&lt;/p&gt;
+&lt;p&gt;Ce blog est né dans le cadre d&amp;rsquo;un projet de &lt;strong&gt;veille technologique&lt;/strong&gt;. Son objectif : documenter ma démarche d&amp;rsquo;apprentissage et partager les informations que je découvre dans mon domaine.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-mon-domaine--le-développement-web"&gt;
+ 🎯 Mon domaine : le Développement Web
+ &lt;a class="heading-link" href="#-mon-domaine--le-d%c3%a9veloppement-web"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Ma veille se concentre sur l&amp;rsquo;écosystème du &lt;strong&gt;développement web moderne&lt;/strong&gt;, avec un focus particulier sur :&lt;/p&gt;</description></item><item><title>Les LLM et l'apprentissage</title><link>https://d-vale.github.io/LabVeilTech/posts/llm/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://d-vale.github.io/LabVeilTech/posts/llm/</guid><description>&lt;h1 id="-les-llm-et-lapprentissage--révolution-ou-danger-pour-les-développeurs-"&gt;
  🧠 Les LLM et l&amp;rsquo;apprentissage : révolution ou danger pour les développeurs ?
  &lt;a class="heading-link" href="#-les-llm-et-lapprentissage--r%c3%a9volution-ou-danger-pour-les-d%c3%a9veloppeurs-"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
@@ -123,6 +140,4 @@
  &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
  &lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;À partir de la deuxième semaine de &lt;strong&gt;janvier 2026&lt;/strong&gt;, AWS aligne officiellement le support de son SDK JavaScript v3 sur le calendrier de releases de Node.js. Le SDK sera testé sur toutes les versions LTS (Long-Term Support), avec une &lt;strong&gt;période de grâce de 8 mois&lt;/strong&gt; après la fin de vie officielle d&amp;rsquo;une version.&lt;/p&gt;</description></item><item><title>temas</title><link>https://d-vale.github.io/LabVeilTech/categoria/temas/</link><pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate><guid>https://d-vale.github.io/LabVeilTech/categoria/temas/</guid><description/></item><item><title>sintaxe</title><link>https://d-vale.github.io/LabVeilTech/categoria/sintaxe/</link><pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate><guid>https://d-vale.github.io/LabVeilTech/categoria/sintaxe/</guid><description/></item><item><title>About</title><link>https://d-vale.github.io/LabVeilTech/about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://d-vale.github.io/LabVeilTech/about/</guid><description>&lt;p&gt;&lt;img src="../images/ikigai.png" alt="Mon Ikigai"&gt;&lt;/p&gt;
-&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href="https://github.com/gohugoio/hugo/blob/master/LICENSE" class="external-link" target="_blank" rel="noopener"&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;À partir de la deuxième semaine de &lt;strong&gt;janvier 2026&lt;/strong&gt;, AWS aligne officiellement le support de son SDK JavaScript v3 sur le calendrier de releases de Node.js. Le SDK sera testé sur toutes les versions LTS (Long-Term Support), avec une &lt;strong&gt;période de grâce de 8 mois&lt;/strong&gt; après la fin de vie officielle d&amp;rsquo;une version.&lt;/p&gt;</description></item><item><title>temas</title><link>https://d-vale.github.io/LabVeilTech/categoria/temas/</link><pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate><guid>https://d-vale.github.io/LabVeilTech/categoria/temas/</guid><description/></item><item><title>sintaxe</title><link>https://d-vale.github.io/LabVeilTech/categoria/sintaxe/</link><pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate><guid>https://d-vale.github.io/LabVeilTech/categoria/sintaxe/</guid><description/></item></channel></rss>
