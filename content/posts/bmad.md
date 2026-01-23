@@ -108,13 +108,25 @@ Au cœur de BMAD, c'est une méthode puissante pour **dompter le chaos du vibe c
 
 ---
 
-## 💡 Pourquoi cet article m'intéresse en tant que Dev ?
+## 💡 Ce que cet article m'apporte en tant que futur développeur
 
-### Lien avec mon domaine
+### Lien avec mon Ikigai
 
-En tant que développeur passionné par l'**informatique** et les **nouvelles technologies** (comme indiqué dans mon Ikigai), cet article touche directement à l'évolution de mon métier. L'IA transforme la façon dont on code, et comprendre les différentes méthodologies pour l'utiliser efficacement est essentiel pour rester compétitif.
+Cet article touche directement à deux éléments de mon Ikigai :
+- **Ce que j'aime** : les nouvelles technologies et l'informatique — l'IA appliquée au développement est exactement dans cette intersection
+- **Ce pour quoi je peux être payé** : le développement web — savoir utiliser efficacement l'IA dans mon workflow sera un atout différenciant sur le marché du travail
 
-Le développement web fait partie de ce pour quoi je suis rémunéré, et savoir **optimiser ma collaboration avec l'IA** impacte directement ma productivité et la qualité de mon travail.
+En tant qu'étudiant, je suis en pleine phase d'apprentissage. Comprendre dès maintenant comment **structurer mes interactions avec l'IA** me donnera une longueur d'avance par rapport à ceux qui se contentent du vibe coding.
+
+### Ce que je retiens pour ma pratique
+
+1. **Ne pas rester au niveau débutant avec l'IA** : Beaucoup de développeurs utilisent l'IA de manière basique (copier-coller). En maîtrisant BMAD, je me démarque.
+
+2. **La documentation est un investissement** : En tant qu'étudiant, j'ai tendance à négliger la doc. Cet article me montre que c'est justement ce qui permet à l'IA de m'aider efficacement sur la durée.
+
+3. **Penser "agents spécialisés"** : Même sans utiliser BMAD formellement, je peux structurer mes prompts différemment selon la phase (conception vs implémentation).
+
+4. **Préparer mon avenir professionnel** : L'article dit que les compétences premium seront "la pensée architecturale et la définition précise des problèmes". Ce sont des compétences que je dois développer pendant mes études.
 
 ---
 

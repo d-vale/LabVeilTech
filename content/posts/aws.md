@@ -75,16 +75,28 @@ L'abandon d'une version Node.js entraîne l'abandon de la version ECMAScript éq
 
 ---
 
-## 💡 Pourquoi cet article m'intéresse en tant que Dev ?
+## 💡 Ce que cet article m'apporte en tant que futur développeur
 
-### Lien avec mon domaine
+### Lien avec mon Ikigai
 
-En tant que développeur spécialisé dans le **développement web** (comme indiqué dans mon Ikigai), Node.js fait partie de mon stack quotidien. AWS est l'un des principaux fournisseurs cloud, et comprendre les évolutions de leur SDK JavaScript est crucial pour maintenir mes projets à jour.
+Cet article touche à la gestion technique et professionnelle :
+- **Ce pour quoi je peux être payé** : le développement web — AWS est omniprésent dans l'industrie
+- **Ce en quoi je suis bon** : l'organisation — planifier les mises à jour fait partie de l'organisation d'un projet
+- **Ce que j'aime** : l'informatique — comprendre les cycles de vie des technologies
 
-Cette annonce touche directement :
-- Les **APIs backend** que je développe avec Node.js
-- Les **applications serverless** (Lambda) qui utilisent le SDK AWS
-- La **maintenance** des projets existants qui doivent rester compatibles
+En tant qu'étudiant, je n'ai pas encore été confronté à la **dette technique** liée aux versions obsolètes. Cet article me montre que c'est un vrai sujet en entreprise, et que je dois apprendre à gérer les montées de version dès maintenant.
+
+### Ce que je retiens pour ma pratique
+
+1. **Vérifier ma version Node.js** : `node --version` devrait devenir un réflexe au début de chaque projet.
+
+2. **Comprendre le cycle LTS** : Les versions paires (18, 20, 22...) sont LTS. Les impaires sont expérimentales. C'est une connaissance de base que tout dev JS doit avoir.
+
+3. **La sécurité passe par les mises à jour** : Une version en fin de vie ne reçoit plus de correctifs de sécurité. C'est un risque concret, pas théorique.
+
+4. **Planifier plutôt que subir** : En entreprise, les mises à jour de runtime doivent être planifiées. Mieux vaut apprendre à anticiper que de réagir dans l'urgence.
+
+5. **AWS est incontournable** : Si je veux travailler dans le web, je croiserai AWS. Comprendre leur politique de support m'aide à mieux utiliser leurs services.
 
 ---
 

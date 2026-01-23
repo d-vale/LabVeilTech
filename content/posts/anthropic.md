@@ -74,16 +74,17 @@ Bun permet de **compiler des projets en exécutables autonomes** : un seul fichi
 
 ---
 
-## 💡 Pourquoi cet article m'intéresse en tant que Dev ?
+## 💡 Ce que cet article m'apporte en tant que futur développeur
 
-### Lien avec mon domaine
+### Lien avec mon Ikigai
 
-En tant que développeur passionné par l'**informatique** et les **nouvelles technologies** (comme indiqué dans mon Ikigai), cette acquisition est particulièrement significative. Elle se situe à l'intersection de deux domaines qui me passionnent :
+Cette acquisition touche plusieurs aspects de mon Ikigai :
 
-- Le **développement web** (mon métier) avec l'écosystème JavaScript
-- Les **nouvelles technologies IA** qui transforment notre façon de coder
+- **Ce que j'aime** : les nouvelles technologies — Bun représente l'innovation dans l'écosystème JavaScript
+- **Ce que j'aime** : l'informatique — comprendre les runtimes est fondamental
+- **Ce pour quoi je peux être payé** : le développement web — JavaScript/Node.js est au cœur du métier
 
-Cette news illustre parfaitement comment l'IA s'intègre de plus en plus profondément dans nos outils de développement — ce n'est plus juste un assistant de chat, c'est l'infrastructure elle-même qui évolue.
+En tant qu'étudiant passionné par les nouvelles technologies, cette acquisition est un signal fort : **l'IA et le développement web convergent**. Anthropic ne se contente pas de créer des chatbots, ils investissent dans l'infrastructure même du développement.
 
 ---
 
